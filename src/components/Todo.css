@@ -1,0 +1,47 @@
+
+body { 
+    background: blueviolet;
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+
+
+.todoList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.task {
+    background: linear-gradient(to bottom, #2980b9, #6dd5fa, #ffffff);
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0 30px 200px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.task.completed {
+    filter: grayscale(100%);
+}
+
+.App {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
